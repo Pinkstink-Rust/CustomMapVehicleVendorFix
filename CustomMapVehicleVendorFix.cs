@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Oxide.Plugins
 {
     [Info("Custom Map Vehicle Vendor Fix", "Pinkstink", "1.0.3")]
-    [Description("Links the VehicleVendor NPC with the VehicleSpawner entity")]
+    [Description("Links all of the VehicleVendor NPC with the VehicleSpawner entity for custom maps")]
     public class CustomMapVehicleVendorFix : RustPlugin
     {
         void OnServerInitialized()
